@@ -1,0 +1,27 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bar-nav{
+	background-color: #69ACFB;
+}
+
+.pull-left{
+	color: #FFFFFF;
+}
+.icon .icon-left{
+	color: #FFFFFF;
+	font-size: 6px;
+}
+.bar-nav h1{
+	font-size: 20px;
+	margin: 0 auto;
+	position: absolute;
+	top:0px;
+	width: 100%;
+	display: block;
+	border:1px solid red;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}

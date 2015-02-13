@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>首页</title>
+    <script src="js/ratchet.js"></script>
+    <link href="css/ratchet.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/order.css"/>
+</head>
+<body>
+	<header class="bar bar-nav mui-bar">
+		  <button class="btn btn-link btn-nav pull-left .mui-bar .mui-btn">
+		    <span class="icon icon-left-nav"></span>
+		    返回
+		  </button>
+		  <h1 class="title">ORCH Bar</h1>
+	</header>
+	
+	<div class="content">
+		<div id="menu">
+			<h1 class="menu_type">我的订单</h1>
+			<span class="menu_button">服务</span>
+			<br class="clear" />
+		</div>
+		<div class="clear"></div>
+		
+		<div class="container">
+			<div class="order_width">
+				<div class="order_list">
+					<div class="order_nav">
+						<ul class="order_detail">
+							<li id="order_name">商品名称</li>
+							<li id="order_num">数量</li>
+							<li id="order_price">小计</li>
+						</ul>
+					</div>
+					
+					<div class="order_menu">
+						<ul>
+							<li class="order_name">西冷牛扒</li>
+							<li class="order_num">2</li>
+							<li class="order_price">72.00</li>
+						</ul>
+						<ul>
+							<li class="order_name">西冷牛扒</li>
+							<li class="order_num">2</li>
+							<li class="order_price">72.00</li>
+						</ul>
+						<ul>
+							<li class="order_name">西冷牛扒</li>
+							<li class="order_num">2</li>
+							<li class="order_price">72.00</li>
+						</ul>
+						<ul>
+							<li class="order_name">西冷牛扒</li>
+							<li class="order_num">2</li>
+							<li class="order_price">72.00</li>
+						</ul>
+					</div>
+					
+					<div class="clear"></div>
+					
+					<div class="order_footer">
+						<span class="order_count">￥345.00</span>
+						<span class="order_total">合计:</span>
+						<span class="clear"></span>
+					</div>
+				</div>
+				<button class="order_update">修改的订单</button>
+				<br class="clear" />
+				<span class="other_reuqire">其他要求</span>
+				<input type="text" name="" id="" class="order_require" placeholder="60字以内（可以不填）"/>
+				<p class="order_confirm">订单提交后将发送至前台处，如需修改订单或推定还订单，请使用“呼叫服务”功能联系前台。</p>
+				<button class="order_submit">提交订单</button>
+			</div>
+		</div>
+	</div>
+	
+	<div id="update_detail">
+		<div class="update_nav">
+			<span class="update_title">修改订单</span>
+			<span class="icon icon-close update_button"></span>
+			<br class="clear" />
+		</div>
+		<ul class="update_list">
+			<li>
+				<span class="update_name">西冷牛扒</span>
+				<div class="update_calculate">
+					<span class="icon  update_cut">-</span>
+					<span class="update_num">1</span>
+					<span class="icon update_add">+</span>
+				</div>
+				<span class="icon icon-close update_close" ></span>
+			</li>
+			<li>
+				<span class="update_name">西冷牛扒</span>
+				<div class="update_calculate">
+					<span class="icon  update_cut">-</span>
+					<span class="update_num">1</span>
+					<span class="icon update_add">+</span>
+				</div>
+				<span class="icon icon-close update_close" ></span>
+			</li>
+			<li>
+				<span class="update_name">西冷牛扒</span>
+				<div class="update_calculate">
+					<span class="icon  update_cut">-</span>
+					<span class="update_num">1</span>
+					<span class="icon update_add">+</span>
+				</div>
+				<span class="icon icon-close update_close" ></span>
+			</li>
+		</ul>
+		
+		<button id="update_submit">提交修改</button>
+	</div>
+	</body>
+</html>

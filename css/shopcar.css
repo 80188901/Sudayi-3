@@ -1,0 +1,110 @@
+.mui-slider-item .index_header{
+	width: 100px;
+	height: 200px;
+} 
+.mui-card{
+	width:99%;
+	margin:0 auto;
+	height: 150px;
+	border-radius: 3px;
+	margin-top:10px;
+}
+.mui-checkbox {
+	float:left;
+	margin: 50px 0px 50px -15px;
+	height: 40px;
+	width: 50px;	
+}
+.goods-pic{
+	width:100px;
+	height:100px;
+	margin: 15px 0px 15px 3px;
+	float: left;
+}
+.goods{
+	float:right;width:53%;height: 100%;
+}
+.goods-title{
+	width:100%;
+	height:15%;
+	float:left;
+	margin: 15px 0px 0px 0px;
+	font-size: 15px;
+	white-space:nowrap; 
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.goods-standard{
+	color:#dedede;
+	width:100%;
+	height:20%;
+	float:left;
+	font-size: 10px;
+	white-space:nowrap; 
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.goods-amount{
+	width:100%;
+	height:25%;
+	float:left;
+	margin: 3px 0px 0px 0px;
+}
+.reduce{
+	padding:6px 0px 9px 0px;
+	float: left;
+}
+.goods-amount .num-select{
+	width: 35px;
+	height: 30px;
+	text-align: center;
+	display:inline-block;
+	float:left;
+	margin:2px;
+	padding:0px 1px;
+}
+.add{
+	padding:6px 0px 9px 0px;
+	float: left;
+}
+.s-price{
+	font-size: 9px;
+	display: block;
+	float: left;
+	margin-top: 8px;
+	margin-left: 10%;
+}
+.price{
+	font-size: 15px;
+	display: block;
+	float: left;
+	margin-top: 8px;
+}
+.goods-footer{
+	width:100%;
+	height:25%;
+	float:left;
+	margin: 3px 0px 0px 0px;
+}
+.goods-footer-pic{
+	width:75%;
+	height:100%;
+	float:left;
+}
+.goods-footer-pic-title{
+	font-size:10px;
+	margin-top:6px;
+	display: inline-block;
+}
+.SubTotal{
+	margin-top: 2px;
+	font-size:10px;
+	margin-left: -7px;
+}
+.delete{
+	padding-top:4px;
+	width:15%;
+	height:100%;
+	float:right;
+	text-align: center;
+}

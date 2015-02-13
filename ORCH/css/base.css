@@ -1,0 +1,30 @@
+body{
+	background: #A34911;
+	font-family: "微软雅黑";
+}
+.bar{
+	background: #212121;
+	border: none;
+}
+.icon{
+	color: #FFFFFF;
+}
+.title{
+	color: #FFFFFF;
+}
+.clear{
+	clear: both;
+}
+.btn.btn-link{
+	color: #FFFFFF;
+}
+.content{
+	background: #A34911;
+}
+li{
+	list-style-type: none;
+}
+*{
+	margin: 0;
+	padding: 0;
+}

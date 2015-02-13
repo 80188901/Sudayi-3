@@ -1,0 +1,24 @@
+#container{
+	background: #A34911;
+	padding-top: 40%;
+	text-align: center;
+	color: #FFFFFF;
+}
+#container .container_title{
+	color: #FFFFFF;
+}
+#container .container_menu{
+	width: 70%;
+	height: 40px;
+	line-height: 40px;
+	background: #DBB8A5;
+	margin: 0 auto;
+	border-radius: 30px;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+#container .container_menu_suggest{
+	display: block;
+	margin-top: 30px;
+	padding-bottom: 20px;
+}

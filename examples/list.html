@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <!--<script src="../js/mui.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/list.css" />
+    <link rel="stylesheet" type="text/css" href="../css/ratchet.css"/>
+    <!--<link href="../css/mui.css" rel="stylesheet"/>-->
+    <!--<style>
+			<!--html,
+			body {
+				background-color: #efeff4;
+			}
+			/*跨webview需要手动指定位置*/
+			.mui-popover {
+				margin-top: 50px;
+				margin-left: 1px;
+				height: 70%;
+				border-radius: 0px;
+				width: 98%;
+			}
+			.mui-content {
+				padding: 10px;
+			}
+		</style>-->
+    <!--<script type="text/javascript" charset="utf-8">-->
+      	<!--mui.init();
+    </script>-->-->
+</head>
+<body style="background-color: #FAFAFA;">
+	<header class="bar bar-nav" style="background-color: #69ACFB">
+		  <a class="btn btn-link btn-nav pull-left mui-bar mui-btn" href="man.html" style="color: #FFFFFF;">
+		    <span class="icon icon-left-nav"  style="color: #FFFFFF;"></span>
+		    返回
+		  </a>
+		  <h1 class="title" style="color: #FFFFFF;">商品</h1>
+	</header>
+	
+	<div class="content " style="margin-bottom: 48px;" >
+		<div class="list_pic">
+		    <a href="#"><img src="../images/man2.jpeg" alt="#" /></a>
+		</div>
+		<div class="list_content">
+			<div class="time">
+				<span>120</span>分钟
+				内送达
+			</div>
+			<div class="list_title" >2014年秋冬新款韩版圆领甜美潮范晕卫衣韩版圆领甜美潮范晕卫衣</div>
+			<div class="list_price">
+				<span>￥4534</span>
+				<del>￥99999</del>
+				<div class="logo">
+					<a href="#" title="包邮">包邮</a>
+					<a href="#" title="1T3">买1携3</a>
+				</div>
+				<img src="../images/love_icon.png" alt="" />
+			</div>
+		</div>
+		<!--<div class="shop_sale">
+				<div class="dianpu">店铺优惠券：</div>
+				<div class="youhui">
+					<span title="100">100减50</span>
+					<span title="200">200减50</span>
+					<span title="7">7折</span>
+				</div>-->
+	<!--</div>-->
+		<div class="shop_logo">
+			<div class="logo">
+				<img src="../images/e84df5b04c545feb396afa23e7f05701.jpg" alt="" />
+			</div>
+			<div class="shop_enter">
+				进店逛逛
+			</div>
+		</div>
+		<div class="shop_list_pic">
+			<img src="../images/man3.jpeg" alt="" />
+			<img src="../images/man4.jpeg" alt="" />
+			<img src="../images/man7.jpeg" alt="" />
+			<img src="../images/man8.jpeg" alt="" />
+		</div>	
+		<nav class="bar bar-tab footer" id="list_footer">
+			<div class="footer_tel"></div>
+			<a href="#middlePopover" class="buy_now ">立即购买</a>
+			<a href="#middlePopover" class="buy_now">加入购物车</a>
+		</nav>
+		<div class="subpage" >
+			<div class="subpage-title">
+				<img src="../images/man2.jpeg" alt=""/>
+				<h1>秋冬新款韩版圆领甜美潮范晕卫衣</h1>
+				<h2>￥333</h2>
+			</div>
+			<div class="color">
+				<h1>颜色</h1>
+				<div class="color-select">
+				   <span style="background-color: red;">红色</span>
+				   <span style="background-color: #007AFF;">绿色</span>
+				   <span style="background-color: #2AC845;">黄色</span>
+				</div>
+			</div>
+			<div class="size">
+				<h1>尺码</h1>
+				<div class="size-select">
+				   <span>S</span>
+				   <span>M</span>
+				   <span>L</span>
+				</div>
+			</div>
+			<div class="number">
+				<h1>数量</h1>
+				<input type="button" value="-"  id="reduce"/>
+				<input type="text" value="1" />
+				<input type="button" value="+" id="add" />
+			</div>
+		</div>
+	</div>
+	
+	
+	<script type="text/javascript">
+			document.getElementById('reduce').addEventListener('tap', function() {
+			var input = document.getElementsByTagName('input')[0];
+			var val = parseInt(input.value);
+			input.value = val - 1;
+			if(input.value < 1){
+				input.value = 1
+			}
+
+		});
+		document.getElementById('add').addEventListener('tap', function() {
+			var input = document.getElementsByTagName('input')[0];
+			var val = parseInt(input.value);
+			input.value = val + 1;
+		
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,460 @@
+*{
+	margin: 0px;
+	padding:0px;
+	font-family: "微软雅黑";
+	
+}
+.list_pic{
+	width: 100%;
+	height: 250px;
+}
+.list_pic img{
+	width: 100%;
+	height:100%;
+}
+.list_content{
+	
+	width: 100%;
+	background-color: #FFFFFF;
+	height: auto;
+}
+.list_content .list_title {
+	color: #999999;
+	margin:0 auto;
+	/*padding-left: 20px;*/
+	text-align:left ;
+	width: 95%;
+	height: auto;
+	/*white-space:nowrap; 
+	text-overflow:ellipsis;
+	overflow:hidden;*/
+}
+.list_content .list_price{
+	width: 100%;
+	height: 40px;
+}
+.list_content .list_price span{
+	float: left;
+	margin-left: 5px;
+	color: #007AFF;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+}
+.list_content .list_price del{
+	color: #999999;
+	font-size: 13px;
+	line-height: 40px;
+	float: left;
+	margin-left: 3px;
+}
+.list_content .list_price a{
+	text-decoration: none;
+	padding: 3px;
+	margin-left: 3px;
+	color: #FFFFFF;
+}
+.list_content .list_price  .logo{
+	float: left;
+	margin-left: 5px;
+	line-height: 40px;
+}
+.list_content .list_price a[title="包邮"]{
+	background-color: #69acfb;
+}
+.list_content .list_price a[title="5折"]{
+	background-color: #f3ed56;
+}
+.list_content .list_price a[title="1T3"]{
+	background-color: #ec4353;
+}
+.list_content .list_price img{
+	display: block;
+	width: 40px;
+	float: right;
+	line-height: 40px;
+}
+.list_content  .time{
+	font-size: 13px;
+	text-align: center;
+	color: #999999;
+	border:1px dashed #007AFF;
+	width: 75%;
+	line-height: 30px;
+	height: 30px;
+	margin: 0 auto;
+}
+.list_content  .time span{
+       margin-left: -3px;
+       font-weight: 10px;
+}
+.shop_sale{
+	width: 95%;
+	background-color: #FFFFFF;
+	height: 30px;
+	margin:10px auto;
+}
+.shop_sale .dianpu{
+	float: left;
+	color: #999999;
+	margin-left: 10px;
+	line-height: 30px;
+    font-family: Microsoft YaHei;
+}
+.shop_sale .youhui{
+	
+	float: left;
+	margin-left: 10px;
+	line-height: 30px;
+	font-size: 13px;
+}
+.shop_sale .youhui span{
+	padding: 3px;
+	color:#FFFFFF;
+}
+.shop_sale .youhui span[title="200"]{
+	background-color: #e565e3;
+}
+
+.shop_sale .youhui span[title="100"]{
+	background-color: #f8c053;
+}
+.shop_sale .youhui span[title="7"]{
+	background-color: #fb6165;
+}
+.shop_logo{
+	background-color: #FFFFFF;
+	width: 95%;
+	margin: 5px auto;
+	height: 50px;
+	border-bottom: 1px solid #FAFAFA;
+	
+}
+.shop_logo .logo{
+	float: left;
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 20px;
+	width: 40px;
+	height: 40px; 
+	border: 1px solid #DEDEDE;
+	border-radius: 50%;
+}
+.shop_logo .logo img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.shop_logo .shop_enter{
+	line-height: 30px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	background-color: #f6b663;
+	width:25%;
+	height: 30px;
+	text-align: center;
+	color: #FFFFFF;
+	border-radius: 6px;
+}
+.shop_list_pic {
+	width: 95%;
+	height: auto;
+	margin:0 auto;
+
+}
+.shop_list_pic img{
+	width: 100%;
+}
+#list_footer{
+	margin: 0px;
+	padding: 0px;
+	background-color: #69ACFB;
+	border-top:#69ACFB;
+}
+#list_footer .footer_tel{
+	width:30%;
+	float: left;
+	height: 48px;
+	line-height: 48px;
+	border:1px solid red;
+}
+#list_footer .buy_now{
+	margin-top: 3px;
+	color: #69ACFB;
+	background: #FFFFFF;
+	height:30px;
+	float: right;
+	margin-right: 5px ;
+	margin-top:10px;
+	padding: 3px;
+	text-align: center;
+	border-radius: 6px;
+}
+.mui-popover-header{
+	width:100%;
+	height: 30%;
+	
+}
+.mui-popover-header img{
+	width:25%;
+	height: 90%;
+	margin:3px;
+}
+.mui-popover-header .content{
+	float: right;
+	width: 72%;
+	height: 100%;
+}
+.mui-popover-header .content .title{
+	padding-top: 5px;
+	display: block;
+	width:90%;
+	margin-top: 3px;
+	white-space:nowrap; 
+	text-overflow:ellipsis;
+	overflow:hidden;
+	font-size: 15px;
+}
+.mui-popover-header .content  .price{
+	color: #007AFF;
+	display: block;
+	width:90%;
+	height: 40%;
+
+	font-size: 15px;
+}
+.mui-popover .mui-popover-cnt{
+	background-color: #FFFFFF;
+	width:100%;
+	height: 60%;
+}
+.mui-popover .mui-popover-cnt .color{
+	border-bottom: 1px solid #FAFAFA;
+	width:95%;
+	height: 70px;
+	margin: 0 auto;
+	
+}
+.mui-popover .mui-popover-cnt .color span{
+	font-size: 10px;
+	width: 100%;
+	height:35%;
+	display: block;
+	padding-left: 5px;
+	
+}
+.mui-popover .mui-popover-cnt .color .select{
+	font-size: 10px;
+	width: 100%;
+	height: 65%;
+	
+	padding-left: 30px;
+
+}
+.mui-popover .mui-popover-cnt .size{
+	width:95%;
+	height: 50px;
+	margin: 0 auto;
+	border-bottom: 1px solid #FAFAFA;
+	
+}
+.mui-popover .mui-popover-cnt .size span{
+	font-size: 10px;
+	width: 100%;
+	height:36%;
+	display: block;
+	padding-left: 5px;
+	
+}
+.mui-popover .mui-popover-cnt .size .select{
+	font-size: 10px;
+	width: 100%;
+	height: 65%;
+	margin-top: -2px;
+	padding-left: 30px;
+	
+}
+.mui-popover .mui-popover-cnt .number{
+	width:95%;
+	height: 30px;
+	margin: 0 auto;
+	
+}
+.mui-popover .mui-popover-cnt .number .number_select{
+	width: 30%;
+	height: 70%;
+	margin-left: 30px;
+}
+.mui-popover .mui-popover-cnt .number span{
+	font-size: 10px;
+	width: 100%;
+	height:40%;
+	display: block;
+	padding-left: 5px;
+	
+}
+.mui-popover .mui-popover-cnt .number #reduce{
+	margin-top: 8px;
+	width: 20px;
+	height: 22px;
+	overflow: hidden;
+	float: left;
+}
+.mui-popover .mui-popover-cnt .number #reduce img{
+	margin-left: -30px;
+	margin-top: -3px;
+	width:50px;
+	height: 30px;
+}
+.mui-popover .mui-popover-cnt .number .num-select{
+	width: 35px;
+	height: 30px;
+	text-align: center;
+	display:inline-block;
+	float:left;
+	margin:2px;
+	padding:0px 1px;
+}
+.mui-popover .mui-popover-cnt .number #add{
+	margin-top: 8px;
+	width: 20px;
+	height: 22px;
+	overflow: hidden;
+	float: left;
+}
+.mui-popover .mui-popover-cnt .number #add img{
+	margin-left: -8px;
+	margin-top: -3px;
+	width:50px;
+	height: 30px;
+}
+.mui-popover .goumai  a{
+	display: block;
+	border:1px solid #007AFF;
+	width: 30%;
+	height: 30px;
+	margin:3px auto;
+	padding: 3px;
+	text-align: center;
+	border-radius: 6px;
+	margin: 0 auto;
+}
+.subpage{
+	z-index:9;width:100%;height: 240px;background: rgba(236,236,236,0.9);border-radius:10px 10px 0px 0px; position: fixed;bottom:40px
+}
+.subpage-title{
+	width: 100%;
+	height: 70px;
+	background-color: #FFFFFF;
+	border-radius: 10px 10px 0px 0px;
+	border:1px solid #FFFFFF;
+}
+.subpage-title img{
+	margin: 5px;
+	display: block;
+	float: left;
+	width: 60px;
+	/*border:1px solid red;*/
+	height: 60px;
+}
+.subpage-title h1{
+	/*border:1px solid red;*/
+	/*width: 80%;*/
+	height: 20px;
+	font-size: 15px;
+	margin-top: 17px;
+	color: #000000;
+}
+.subpage-title h2{
+	/*border:1px solid red;*/
+	/*width: 80%;*/
+	height: 20px;
+	margin-top: -10px;
+	font-size: 15px;
+	color: #69ACFB;
+}
+.subpage .color{
+	width: 95%;
+	height: 50px;
+	margin: 0 auto;
+	border-bottom:1px solid #C5CCD3;
+}
+.subpage .color h1{
+	font-size: 15px;
+	padding-left: 10px;
+	padding-top: 3px;
+	/*border:1px solid red;*/
+	margin: 0px;
+	
+}
+.subpage .color-select{
+	width: 100%;
+	height: 30px;
+	margin-top: 4px;
+}
+.subpage span{
+	text-align: center;
+	color: #FFFFFF;
+	border-radius: 5px;
+	padding: 0px 20px;
+}
+.subpage .size{
+	width: 95%;
+	height: 45px;
+	margin: 0 auto;
+	border-bottom:1px solid #C5CCD3;
+}
+.subpage .size h1{
+	font-size: 15px;
+	padding-left: 10px;
+	padding-top: 3px;
+	/*border:1px solid red;*/
+	margin: 0px;
+	
+}
+.subpage .size-select{
+	width: 100%;
+	height: 30px;
+	padding-left: 5px;
+	margin-top: 4px;
+}
+.subpage .size span{
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #69ACFB;
+	border-radius: 5px;
+	padding: 0px 15px;
+}
+.subpage .number{
+	width: 95%;
+	height: 55px;
+	margin: 0 auto;
+	border-bottom:1px solid red;
+}
+.subpage .number h1{
+	font-size: 15px;
+	padding-left: 10px;
+	padding-top: 3px;
+	/*border:1px solid red;*/
+	margin: 0px;	
+}
+#reduce{
+	width: 10%;
+	height: 50%;
+	border-radius: 10px;
+	background-color: #69ACFB;
+	border:1px solid #69ACFB
+}
+.number input[value="1"]{
+	width: 15%;
+	height: 40%;
+	text-align: center;
+}
+#add{
+	width: 10%;
+	height: 50%;
+	border-radius: 10px;
+	background-color: #69ACFB;
+	border:1px solid #69ACFB
+}

@@ -1,0 +1,113 @@
+.p_c_header{
+	width: 100%;
+	height: 100px;
+	background-color: #FFFFFF;
+}
+.p_c_header .user_pic{
+	border:1px solid red;
+	margin: 3px;
+	width: 25%;
+	float: left;
+	height: 95px;
+	border-radius: 3px;
+	border:1px solid #DEDEDE
+}
+.p_c_header .user_content{
+	/*margin: 3px;*/
+	float:left;
+	
+	width: 53%;
+	height: 95px;
+}
+.p_c_header .user_name{
+	margin-top: 18px;
+	font-size: 20px;
+	
+}
+.p_c_header .user_address{
+	
+	width: 100%;
+	height: 30px;
+	font-size: 15px;
+	margin-top: 7px;	
+}
+.p_c_header .user_address .logo{
+	
+	margin-top: 3px;
+	float:left;
+	
+}	
+.p_c_header .user_address .address{
+	
+	margin-top: 3px;
+	margin-left: 3px;
+	white-space:nowrap; 
+	text-overflow:ellipsis;
+	overflow:hidden;
+	width:80%;
+	float: left;
+}
+.p_c_header .user_setup{
+	float: right;
+	margin: 3px;
+	margin-right: 10px;
+	width: 10%;
+	height: 95px;
+}
+.p_c_header .user_setup a{
+	line-height: 93px;
+	color: #000000;
+}
+.p_c_content{
+	margin-left: -10px;
+	float: left;
+	
+	width: 10%;
+	height: 100px;
+}
+
+.p_c_content .p_c_check{
+	width: 5%;
+
+	height:100px;
+	margin-top: 30px;
+	margin-left:-25px;
+}
+.mui-table-view-cell .Delivery_content_pic{
+	width: 37%;
+	float: left;
+
+	height: 100px;
+}
+.mui-table-view-cell .Delivery_content_pic img{
+  	margin: 1px 3px;
+  	width: 95%;
+  	height: 98% ;
+
+
+}
+.Delivery_contents .contents_title{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	white-space:nowrap; 
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.contents_price{
+	margin-left:-10px;
+	padding: 4px;
+	width: 15%;
+	height: 100px;
+	float:right;
+}
+.peisongyuan_content{
+	width: 98%;
+	margin-top: 3px;
+	margin-left:10px;
+	height: 30px;
+	clear: both;
+}
+
+
